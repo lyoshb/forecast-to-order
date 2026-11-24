@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+matplotlib
+lightgbm
+pulp
+jupyter
+scikit-learn
+highspy
