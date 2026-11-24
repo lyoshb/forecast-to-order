@@ -2,6 +2,7 @@
 
 **作者：** 林乐思（Balabanov Oleksii）· 个人项目，2026 年 11 月
 **工具：** Python、pandas、LightGBM、SciPy、PuLP + HiGHS
+
 **PDF 版：** [下载 PDF 报告](report/forecast_to_order_report.pdf)（内容与本页相同）
 
 门店每周都要决定订多少货。订少了，顾客买不到，门店少赚钱；订多了，卖不掉的货要亏本处理。我用一份公开的零售数据，把这件事拆成两步：先预测下周能卖多少，再用运筹学方法决定订多少；最后用 2017 年的真实销量检验每种做法实际会损失多少钱。
